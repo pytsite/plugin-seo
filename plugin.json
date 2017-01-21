@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "SEO",
+    "ru": "SEO",
+    "uk": "SEO"
+  },
+  "url": "https://github.com/pytsite/plugin-seo",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": []
+  }
+}
