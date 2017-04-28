@@ -8,11 +8,6 @@ __license__ = 'MIT'
 
 
 class TagsWidget(_widget.MultiRow):
-    def __init__(self, uid: str, **kwargs):
-        super().__init__(uid, **kwargs)
-
-        self.assets.append('seo@js/tags-widget.js')
-
     def _get_headers_row(self):
         return 'Name', 'Content'
 
