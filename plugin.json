@@ -1,4 +1,6 @@
 {
+  "name": "plugins.seo",
+  "version": "0.1.2",
   "description": {
     "en": "SEO",
     "ru": "SEO",
