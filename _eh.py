@@ -1,6 +1,7 @@
 """PytSite SEO Plugin Event Handlers.
 """
-from pytsite import metatag as _metatag, settings as _settings
+from pytsite import metatag as _metatag
+from plugins import settings as _settings
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
