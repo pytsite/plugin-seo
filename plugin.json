@@ -17,7 +17,7 @@
     "plugins": [
       "font_awesome",
       "permissions",
-      "settings"
+      "settings>=1.3"
     ]
   }
 }
