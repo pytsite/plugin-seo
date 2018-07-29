@@ -8,7 +8,7 @@ from pytsite import lang as _lang, validation as _validation
 from plugins import widget as _widget, settings as _settings
 
 
-class TagsWidget(_widget.MultiRow):
+class TagsWidget(_widget.container.MultiRow):
     def _get_headers_row(self):
         return 'Name', 'Content'
 

@@ -1,6 +1,6 @@
 {
   "name": "seo",
-  "version": "1.3.1",
+  "version": "1.4",
   "description": {
     "en": "SEO",
     "ru": "SEO",
@@ -16,7 +16,8 @@
     "plugins": [
       "font_awesome",
       "permissions",
-      "settings>=1.3"
+      "settings>=1.3",
+      "widget>=2.4.1"
     ]
   }
 }

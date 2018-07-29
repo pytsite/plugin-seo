@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.4 (2018-07-29)
+
+Support of `widget-2.4`.
+
+
 ### 1.3.1 (2018-04-04)
 
 `plugin.json` fixed.
@@ -11,22 +16,22 @@
 
 ### 1.3 (2018-01-27)
 
-Support for `settings-1.3`.
+Support of `settings-1.3`.
 
 
 ### 1.2 (2017-12-13)
 
-Support for PytSite-7.0.
+Support of PytSite-7.0.
 
 
 ### 1.1 (2017-12-02)
 
-Support for PytSite-6.1.
+Support of PytSite-6.1.
 
 
 ### 1.0 (2017-11-26)
 
-Support for PytSite-6.0.
+Support of PytSite-6.0.
 
 
 ### 0.1.2 (2017-08-27)
