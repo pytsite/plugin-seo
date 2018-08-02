@@ -9,20 +9,19 @@ from plugins import widget as _widget, settings as _settings
 
 
 class TagsWidget(_widget.container.MultiRow):
-    def _get_headers_row(self):
-        return 'Name', 'Content'
-
-    def _get_widgets_row(self):
+    def _get_widgets(self):
         return [
             _widget.input.Text(
                 uid='name',
-                rules=[
-                    _validation.rule.NonEmpty(),
-                    _validation.rule.Regex(pattern='^[^"]+$', msg_id='seo@field_cannot_contain_quotes')
-                ],
+                label='Name',
+                label_hidden=True,
+                rules=_validation.rule.Regex(pattern='^[^"]+$', msg_id='seo@field_cannot_contain_quotes'),
+                required=True,
             ),
             _widget.input.Text(
                 uid='content',
+                label='Content',
+                label_hidden=True,
                 rules=_validation.rule.Regex(pattern='^[^"]+$', msg_id='seo@field_cannot_contain_quotes'),
             ),
         ]
@@ -32,7 +31,6 @@ class Form(_settings.Form):
     def _on_setup_widgets(self):
         self.add_widget(TagsWidget(
             uid='setting_global_metatags',
-            weight=10,
             label=_lang.t('seo@global_metatags'),
         ))
 
